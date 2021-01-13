@@ -3,7 +3,7 @@ title: "Can Artificial Intelligence Dream of Cannabis?"
 subtitle: "A cannabis-trained [DeepDream](https://en.wikipedia.org/wiki/DeepDream) approach"
 author: "Juan Cruz Rodriguez"
 date: "1/6/2021"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
