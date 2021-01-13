@@ -8,6 +8,15 @@ Intelligence Dream of Cannabis?”* blog post.
 
 ## Usage
 
+### Adding Images for Training
+
+The images used to train Weedception\_v1 are not my property, and
+therefore I cannot share them. To retrain the model you must provide
+your own images. To do this, in the `TrainingImages/` folder there
+should be a sub-folder for each category to be used, and within each
+sub-folder its corresponding images. As an example, in each
+`TrainingImages/` sub-folder, there is included one example image.
+
 ### Training the Weedception\_v1 Model
 
 To retrain inception, file `01_retrain_inception.py` should be executed,
