@@ -132,4 +132,6 @@ for i, shape in enumerate(successive_shapes):
   shrunk_original_img = tf.image.resize(original_img, shape)
 
 
-keras.preprocessing.image.save_img('NiceDreams/' + result_prefix + '.png', deprocess_image(img.numpy()))
+keras.preprocessing.image.save_img(
+  'NiceDreams/' + result_prefix + '.png', deprocess_image(img.numpy())
+)
