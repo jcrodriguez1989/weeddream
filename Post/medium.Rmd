@@ -73,55 +73,55 @@ include_graphics("../original_img.jpg")
 
 Analyzing the effects of layer 1, there are no clear patterns related to the 4 categories used for training. With some creativity, some flower-like textures can be appreciated.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 1 (weight=7) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 1 (weight=7) effects."}
 include_graphics("../LayersImgs/mixed1_7.0.png")
 ```
 
 Now, in layers 2 and 3, more marked patterns begin to be noticed. Flower textures are more recognizable, as well as seed-like figures begin to appear. Also, some elongated figures appear, which could have some relation to pre-rolls.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 2 (weight=10) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 2 (weight=10) effects."}
 include_graphics("../LayersImgs/mixed2_10.0.png")
 ```
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 3 (weight=7) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 3 (weight=7) effects."}
 include_graphics("../LayersImgs/mixed3_7.0.png")
 ```
 
 Layer 4 does not present easily recognizable patterns, it could be interpreted that figures related to pre-rolls or plants influence this layer.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 4 (weight=10) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 4 (weight=10) effects."}
 include_graphics("../LayersImgs/mixed4_10.0.png")
 ```
 
 In layer 5, again no noticeable patterns are observed, although a few seed-related figures can be seen.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 5 (weight=2) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 5 (weight=2) effects."}
 include_graphics("../LayersImgs/mixed5_2.0.png")
 ```
 
 Layer 6 presents well-marked patterns of flower textures, especially when looking at the image of the red heart.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 6 (weight=3) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 6 (weight=3) effects."}
 include_graphics("../LayersImgs/mixed6_3.0.png")
 ```
 
 In layers 7 and 8, no easily recognizable patterns can be seen. Although some quite interesting psychedelic effects are created.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 7 (weight=3) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 7 (weight=3) effects."}
 include_graphics("../LayersImgs/mixed7_3.0.png")
 ```
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 8 (weight=7) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 8 (weight=7) effects."}
 include_graphics("../LayersImgs/mixed8_7.0.png")
 ```
 
 Finally, in layers 9 and 10, some beautiful flower textures are present.
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 9 (weight=3) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 9 (weight=3) effects."}
 include_graphics("../LayersImgs/mixed9_3.0.png")
 ```
 
-```{r echo=FALSE, fig.cap="WeedCeption_v1 concatenate layer 10 (weight=3) effects."}
+```{r echo=FALSE, fig.cap="WeedCeption_v1 _concatenate_ layer 10 (weight=3) effects."}
 include_graphics("../LayersImgs/mixed10_3.0.png")
 ```
 
