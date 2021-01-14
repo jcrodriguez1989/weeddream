@@ -1,4 +1,5 @@
 #### Setup
+# https://keras.io/examples/generative/deep_dream/
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -31,8 +32,7 @@ iterations = 30  # Number of ascent steps per scale
 max_loss = 150.0
 
 def preprocess_image(image_path):
-  # Util function to open, resize and format pictures
-  # into appropriate arrays.
+  # Util function to open, resize and format pictures into appropriate arrays.
   img = keras.preprocessing.image.load_img(image_path)
   img = keras.preprocessing.image.img_to_array(img)
   img = np.expand_dims(img, axis=0)

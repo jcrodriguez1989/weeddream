@@ -14,7 +14,7 @@ pictures by adding psychedelic “dream” effects. If not, take a look at
 DeepDream uses a deep convolutional network, named
 [“Inception”](https://paperswithcode.com/method/inception-v3), which was
 trained with the aim of automatically classifying images. DeepDream
-author Alexander Mordvintsev wanted to know what
+author [Alexander Mordvintsev](https://znah.net/) wanted to know what
 calculations/transformations the model was performing on the input image
 when trying to classify it.
 
@@ -42,11 +42,11 @@ retrain Inception’s architecture with images of cannabis?” 🤯.
 
 ## Retraining the Architecture
 
-For this project, the NN architecture of Inception was trained from
-scratch so that it classifies cannabis images within four
-sub-categories. A total of 2822 images were used, tagged as “flower” 💐
-(2243 images), “plant” 🌱 (90), “pre-roll” 🚬 (257), and “seeds” 🌰 (232),
-as exemplified by the following images respectively:
+For this project, the NN architecture of Inception was retrained so that
+it classifies cannabis images within four sub-categories. A total of
+2822 images were used, tagged as “flower” 💐 (2243 images), “plant” 🌱
+(90), “pre-roll” 🚬 (257), and “seeds” 🌰 (232), as exemplified by the
+following images respectively:
 
 ![Example images for category “flower” and
 “plant”.](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Orange_Cookies.png/320px-Orange_Cookies.png)![Example
@@ -124,7 +124,8 @@ WeedCeption\_v1 *concatenate* layer 4 (weight=10) effects.
 </div>
 
 In layer 5, again no noticeable patterns are observed, although a few
-seed-related figures can be seen.
+seed-related figures can be seen mainly in the upper part of the red
+heart.
 
 <div class="figure" style="text-align: center">
 
@@ -199,8 +200,9 @@ WeedCeption\_v1 *concatenate* layer 10 (weight=3) effects.
 <!-- # 9   nice flower -->
 <!-- # 10  nice flower -->
 
-Do you see something else of the layers that I have not observed? Please
-comment below 👇!
+These are my personal appreciations of what I get from the effects of
+each layer. But do you see anything else about the layers that I have
+not seen? Please comment below!
 
 ## Using Selected Layers for Final Result
 
@@ -211,7 +213,7 @@ effects), and 9 (nice flower effects). For this combination of layers,
 analyzing random selections of weights, new transformations of the
 original image were obtained. Next, I present what I consider the most
 beautiful output image obtained. This image was obtained with weights
-`2`, `5`, and `4`, for layers 2, 6, and 9 respectively.
+`2`, `5`, and `4`, for layers 2, 6, and 9 respectively:
 
 <div class="figure" style="text-align: center">
 
@@ -226,19 +228,29 @@ We can observe the beautiful cannabis-related effects that WeedDream is
 able to add to the original image. Easily differentiable flower textures
 can be observed, as well as some seeds tend to appear.
 
-Would you like to get your picture WeedDreamed? Comment on this post,
-and I will try to get the job done 🦾!
+Tell me, would you like to get your picture WeedDreamed? Comment on this
+post, and I will try to get the job done 🦾!
+
+## Conclusions
+
+The database with which WeedCeption\_v1 was trained was small and
+unbalanced. However, it was shown that when using the model to generate
+dreams, effects related to the training categories begin to appear. It
+can be concluded that it is completely possible to generate a
+“WeedDream” model.
 
 ## Next Steps
 
 As previously mentioned, DeepDream tends to add animal figures, since it
 was trained with an unbalanced amount of images for animals. In
 WeedDream something similar happens, since the number of flower images
-is times greater than the rest, flowers is the most distinguishable
+is times greater than the rest, “flowers” is the most distinguishable
 effect obtained. Retraining the model with a larger number of images,
 towards obtaining WeedCeption\_v2, would definitely result in a more
 interesting analysis. Maybe Weedmaps or Leafly can help by allowing me
-to use their gigantic image database 😅🙏.
+to use their gigantic image database 😅🙏. I am optimistic that analyzing
+more images, as well as more categories, would result in amazing new
+effects.
 
 ## Reproducibility
 
