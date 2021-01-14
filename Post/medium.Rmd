@@ -22,6 +22,8 @@ include_graphics(
 
 ## Non-technical DeepDream's TL;DR
 
+_For a slightly more technical explanation, I recommend the [Keras blog](https://keras.io/examples/generative/deep_dream/)._
+
 DeepDream uses a deep convolutional network, named ["Inception"](https://paperswithcode.com/method/inception-v3), which was trained with the aim of automatically classifying images. DeepDream author [Alexander Mordvintsev](https://znah.net/) wanted to know what calculations/transformations the model was performing on the input image when trying to classify it.
 
 Inception's NN architecture contains ten independent _concatenate_ layers ("Concat"; red boxes in the following figure). By editing the weights of different layers, after giving an input image, we could visually check the transformation effect of each layer. To Alexander's surprise, the results were astonishing, finding artistic psychedelic alterations in the images.

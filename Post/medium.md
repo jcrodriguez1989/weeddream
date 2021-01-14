@@ -11,6 +11,9 @@ pictures by adding psychedelic “dream” effects. If not, take a look at
 
 ## Non-technical DeepDream’s TL;DR
 
+*For a slightly more technical explanation, I recommend the [Keras
+blog](https://keras.io/examples/generative/deep_dream/).*
+
 DeepDream uses a deep convolutional network, named
 [“Inception”](https://paperswithcode.com/method/inception-v3), which was
 trained with the aim of automatically classifying images. DeepDream
