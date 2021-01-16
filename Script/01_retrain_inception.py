@@ -16,7 +16,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 
 # train InceptionV3 from zero (just keep the architecture)
-base_model = InceptionV3(weights=None, include_top=False)
+base_model = InceptionV3(weights='imagenet', include_top=False)
 
 # add a global spatial average pooling layer
 x = base_model.output
@@ -42,4 +42,4 @@ model.compile(optimizer=SGD(lr=0.0001, momentum=0.9), loss='categorical_crossent
 step_size_train = train_generator.n // train_generator.batch_size
 model.fit(train_generator, steps_per_epoch=step_size_train, epochs=10)
 
-model.save('Models/weedception_v1.h5') # creates a HDF5 file 'my_model.h5'
+model.save('Models/weedception_v1.h5') # creates a HDF5 file 'weedception_v1.h5'

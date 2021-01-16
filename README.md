@@ -34,6 +34,13 @@ To create dreams using only one layer and one weight run the following:
 ``` bash
 # Let's say we want to train layer 10 with weight 3, we should type:
 weeddream$ python Script/02_analyze_individual_layers.py 10 3
+
+# If we want to train each individual layer for each weight from 1 to 10, we should type:
+weeddream$ for layer in {1..10}; do
+>     for weight in {1..10}; do
+>         python Script/02_analyze_individual_layers.py $layer $weight
+>     done
+> done
 ```
 
 ### Using WeedDream to Dream With the Selected Setting
