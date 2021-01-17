@@ -15,11 +15,11 @@ jobs:
         env:
           CANCU: ${{ secrets.CANCU }}
         run: |
-          cat(Sys.getenv("CANCU" ))
-          print(Sys.getenv("CANCU"))
+          cat(Sys.getenv("env:CANCU"))
+          print(Sys.getenv("env:CANCU"))
         shell: Rscript {0}
       - shell: bash
         env:
           CANCU: ${{ secrets.CANCU }}
         run: |
-          echo "$CANCU"
+          echo "$env:CANCU"
