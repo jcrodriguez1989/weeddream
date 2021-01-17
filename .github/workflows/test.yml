@@ -15,7 +15,7 @@ jobs:
         env:
           CANCU: ${{ secrets.CANCU }}
         run: |
-          cat(Sys.getenv("CANCU"))
+          cat(Sys.getenv("CANCU" ))
           print(Sys.getenv("CANCU"))
         shell: Rscript {0}
       - shell: bash
