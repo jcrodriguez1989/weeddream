@@ -20,7 +20,7 @@ jobs:
         shell: Rscript {0}
     steps:
       - shell: bash
-      env:
-        CANCU: ${{ secrets.CANCU }}
-      run: |
-        echo "$CANCU"
+        env:
+          CANCU: ${{ secrets.CANCU }}
+        run: |
+          echo "$CANCU"
