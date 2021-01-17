@@ -12,9 +12,9 @@ jobs:
         with:
           r-version: '4.0.3' # The R version to download (if necessary) and use.
       - name: Print env
-        env: # Or as an environment variable
+        env:
           CANCU: ${{ secrets.CANCU }}
         run: |
-          cat(Sys.getenv("CANCU"))
+          cat(Sys.getenv("CANCU" ))
           print(Sys.getenv("CANCU"))
         shell: Rscript {0}
