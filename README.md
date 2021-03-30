@@ -1,10 +1,7 @@
 
 # WeedDream - A cannabis-trained [DeepDream](https://en.wikipedia.org/wiki/DeepDream) approach
 
-<!-- TODO: Add post link. -->
-
-Code to reproduce the findings presented at the *“Can Artificial
-Intelligence Dream of Cannabis?”* blog post.
+Code to reproduce the findings presented at the [_"Can Artificial Intelligence Dream of Cannabis?"_ blog post](https://medium.com/cannabis-explorations/can-artificial-intelligence-dream-of-cannabis-3ed9b34948bf).
 
 ## Usage
 
